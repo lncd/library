@@ -31,4 +31,7 @@ $args = array(
 	'after_title'   => '</h3>' );
 	
 	register_sidebar( $args );
+
+	add_image_size( 'orbit-custom', 620, 300, true );
+
 ?>

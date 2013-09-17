@@ -22,14 +22,7 @@ Template Name: Homepage
 									<?php the_title(); ?>
 								</a>
 							</h1>-->
-														
-							
-							<?php if(function_exists('wp_content_slider')) : ?>
-							<div class="padding_left padding_top">
-								<?php wp_content_slider(); ?>
-							</div>
-							<?php endif; ?>
-							
+                            
 							<?php if( is_active_sidebar ( 'homepage-top' ) ) : ?>
 							<div class="padding_left padding_top">
 								<?php dynamic_sidebar( 'homepage-top' ); ?>

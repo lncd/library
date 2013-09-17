@@ -2,11 +2,11 @@
 Theme Name:     Library
 Description:    Child theme of CWD 
 Author:         Andrew Beeken
-Template:       CWD4.0-WordPress-theme 
+Template:       CWD3.1-WordPress-theme
 Version:        1
 */
 
-@import url("../CWD4.0-WordPress-theme/style.css");
+@import url("../CWD3.1-WordPress-theme/style.css");
 
 body{
 	background: #eee;
@@ -170,4 +170,26 @@ table.withborder th{
 
 .post-title{
 	margin-bottom: 20px;
+}
+
+/*CF7*/
+.form-block{
+	padding: 10px;
+	background: #ededed;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+	.form-block label,
+	.form-block input{
+		display: inline-block;
+		vertical-align: middle;
+	}
+	
+	.form-block label{
+		width: 35%;
+	}
+	
+.required{
+	color: red;
 }
