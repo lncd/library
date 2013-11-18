@@ -193,3 +193,13 @@ table.withborder th{
 .required{
 	color: red;
 }
+
+/*Slider Styles*/
+.orbit-wrapper a{
+	color: #fff;
+}
+
+	.orbit-wrapper a:hover{
+		color: #fff;
+		text-decoration: none;
+	}
